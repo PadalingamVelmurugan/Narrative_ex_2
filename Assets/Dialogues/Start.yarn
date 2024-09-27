@@ -1,0 +1,88 @@
+﻿title: Start
+tags:
+position: -16,-271
+---
+Mrs. Thompson: Thank you for coming, Detective. Emily was last seen in her room last night. Please, find her.
+Detective Alex: We’ll do our best, Mrs. Thompson. Let’s start by talking to the staff.
+Officer Blake: Who should we talk to first?
+
+-> Talk to Mr. Green, the butler.
+    <<jump option1>>
+-> Talk to Ms. White, the maid.
+    <<jump option2>>
+-> Inspect Emily’s room.
+    <<jump option3>>
+===
+
+title: option1
+position: -240,-20
+---
+Detective Alex: Mr. Green, did you notice anything unusual last night?
+Mr. Green: I did hear some strange noises coming from the garden, but I thought it was just the wind.
+Officer Blake: Should we check the garden?
+-> Yes, let’s check the garden.
+    <<jump optionA>>           
+-> No, let’s talk to Ms. White first.
+    <<jump ooption2>>
+===
+
+title: option2
+position: -7,-16
+---
+Detective Alex: Ms. White, did you see or hear anything unusual last night?
+Ms. White: I saw a shadowy figure near Emily’s room, but I couldn’t make out who it was.
+Officer Blake: Should we inspect Emily’s room?
+-> Yes, let’s inspect Emily’s room.
+    <<jump option3>>
+-> No, let’s check the garden first.
+    <<jump optionA>>
+===
+title: option3
+position: 257,-12
+---
+Detective Alex: “Let’s see if we can find any clues in Emily’s room.
+Officer Blake: “Look, there’s a note on the desk.
+Detective Alex: “It says, ‘Meet me in the garden at midnight.’ This could be a lead.
+-> Follow the lead to the garden.
+    <<jump optionA>>
+-> Question the staff about the note.
+    Detective Alex: Mr. Green, do you know anything about this note?
+    Mr. Green: I saw Ms. White near Emily’s room last night. She seemed nervous.
+    Detective Alex: Ms. White, do you have anything to say?
+    Ms. White: I… I was trying to protect Emily. I found out someone was planning to kidnap her.
+    Officer Blake: We’ll need to investigate further, but thank you for your honesty.
+    Detective Alex: Ms. White, do you have any idea who might be behind this?
+    Ms. White: I overheard a conversation between Mr. Green and a stranger. They mentioned something about a ransom.
+    Detective Alex: Mr. Green, is this true?
+    Mr. Green: I… I was forced into it. They threatened my family if I didn’t cooperate.
+    Officer Blake: We’ll take you both in for questioning. This isn’t over yet.
+===
+title: optionA
+position: -104,240
+---
+Detective Alex: Let’s see if we can find anything in the garden.
+Officer Blake: Look, there’s a piece of fabric caught on the fence. It looks like it belongs to Emily.
+Detective Alex: This could mean she was taken through the garden.
+-> Follow the trail from the garden.
+    Detective Alex: The trail leads to the old shed. Let’s check inside.
+    Officer Blake: Emily! Are you okay?
+    Emily: Yes, thank you for finding me. I was taken by someone in a mask, but I managed to escape.
+    Detective Alex: We’ll get you to safety and find out who did this.
+    Officer Blake: Emily, do you remember anything about your kidnapper?
+    Emily: I couldn’t see their face, but they had a deep voice and wore a distinctive ring.
+    Detective Alex: That’s a good lead. We’ll investigate further.
+    Mrs. Thompson: Thank you so much for finding her, Detective. I don’t know what I would have done without your help.
+    Detective Alex: It’s our job, Mrs. Thompson. We’ll make sure the person responsible is brought to justice.
+-> Return to the mansion and question the staff.
+    Detective Alex: Mrs. Thompson, do you know why someone would want to take Emily?
+    Mrs. Thompson: I recently received a ransom note demanding money for her safe return.
+    Detective Alex: We’ll set a trap and catch the kidnapper.
+    Officer Blake: Good idea. Let’s prepare.
+    Later that night, at the arranged meeting spot
+    Detective Alex: Everyone, stay hidden and be ready.
+    A shadowy figure approaches, looking around nervously.
+    Detective Alex: Now! Surround them!
+    Officer Blake: Hands up! You’re under arrest!
+    Kidnapper: You won’t get away with this!
+    Detective Alex: We already have. Emily is safe, and you’re going to jail.
+===
